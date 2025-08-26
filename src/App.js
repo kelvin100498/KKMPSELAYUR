@@ -22,7 +22,7 @@ function App() {
   const [runningTexts, setRunningTexts] = useState([]);
 
   const SHEET_URL =
-    'https://script.google.com/macros/s/AKfycbx4hJsNeTHgEnk8nGmrzEGMHBooqvfxOK4Z2izDYBSwL9-jlXX3pSC0wZq9ivc4oH6S/exec';
+    'https://script.google.com/macros/s/AKfycbzj-Mr8IRm_Fx82aaW-cQns1ctuVJEtbjkP4UGBNZRqL4pOhmWdB1wHHACN-FpP7f9_/exec';
 
   useEffect(() => {
     // Mulai fetch data segera
