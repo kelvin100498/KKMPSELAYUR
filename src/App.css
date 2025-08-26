@@ -306,8 +306,10 @@ body {
 }
 
 .struktur-organisasi {
-  width: 1065px;
-  height: 300px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
 }
 
 .organisasi-wrapper {
@@ -407,7 +409,153 @@ body {
   line-height: 1.3;
 }
 
+/* ========================= */
+/* Responsive Styles */
+/* ========================= */
+
+/* Tablet */
+@media (max-width: 1024px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem;
+  }
+
+  .menu {
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+
+  .search-bar {
+    max-width: 100%;
+    margin: 0.8rem 0;
+  }
+
+  .footer {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+
+  .footer-left, 
+  .footer-center, 
+  .footer-right {
+    margin: 0.8rem 0;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .footer-right {
+    align-items: center;
+  }
+
+  .organisasi-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* Responsive khusus kartu produk di HP */
+@media (max-width: 768px) {
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: 1rem;
+    padding: 0.5rem;
+  }
+
+  .product-card {
+    padding: 0.8rem;
+    border-radius: 12px;
+  }
+
+  .product-img {
+    width: 100%;
+    height: 140px; /* biar lebih proporsional */
+    object-fit: cover;
+    border-radius: 10px;
+  }
+
+  .product-card h3 {
+    font-size: 1rem;
+    margin: 0.5rem 0;
+    text-align: center;
+  }
+
+  .price {
+    font-size: 0.95rem;
+    font-weight: bold;
+    color: #800000;
+    text-align: center;
+  }
+
+  .stock {
+    font-size: 0.85rem;
+    text-align: center;
+  }
+  
+}
+
+/* Navbar responsive di HP */
+@media (max-width: 768px) {
+  .struktur-organisasi {
+    display: none;
+  }
+  
+  .search-bar {
+    width: 90%;          /* biar ada space kanan kiri */
+    margin: 0 auto 1rem; /* auto bikin rata tengah */
+    display: block;
+  }
+
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem; /* kasih ruang */
+  }
+
+  .navbar img {
+    width: 60px;  /* perkecil logo di HP */
+    height: 60px;
+    margin-bottom: 0.5rem; /* kasih jarak bawah logo */
+  }
+
+  .logo {
+    margin-bottom: 0.8rem; /* jarak antara teks logo dan menu */
+  }
+
+  .menu {
+    width: 100%;
+    justify-content: space-around; /* menu rata */
+    gap: 0.5rem;
+  }
+}
 
 
+/* HP kecil banget */
+@media (max-width: 480px) {
+  .product-grid {
+    grid-template-columns: 1fr 1fr; /* jadi 2 kolom */
+    gap: 0.8rem;
+  }
 
+  .product-img {
+    height: 120px;
+  }
 
+  .product-card {
+    padding: 0.6rem;
+  }
+
+  .product-card h3 {
+    font-size: 0.9rem;
+  }
+
+  .price {
+    font-size: 0.85rem;
+  }
+
+  .stock {
+    font-size: 0.75rem;
+  }
+}
