@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/KKMPSELAYUR/static/css/main.2614ba06.css",
+    "main.js": "/KKMPSELAYUR/static/js/main.c78004bf.js",
+    "static/js/453.382633c3.chunk.js": "/KKMPSELAYUR/static/js/453.382633c3.chunk.js",
+    "static/media/strukturOrganisasi.png": "/KKMPSELAYUR/static/media/strukturOrganisasi.3a8660225c291697e41c.png",
+    "static/media/palembangLogo.png": "/KKMPSELAYUR/static/media/palembangLogo.88b2ba1ed8e5812b05ec.png",
+    "static/media/kementrianDesa.png": "/KKMPSELAYUR/static/media/kementrianDesa.fa946355eda3e09a24bc.png",
+    "static/media/logo2.png": "/KKMPSELAYUR/static/media/logo2.d161566144635961e343.png",
+    "static/media/logoSeiSelayur.png": "/KKMPSELAYUR/static/media/logoSeiSelayur.28c6973f69ce7e5fe03a.png",
+    "static/media/kemenkop.png": "/KKMPSELAYUR/static/media/kemenkop.33d665fe0bca5d751f08.png",
+    "index.html": "/KKMPSELAYUR/index.html",
+    "main.2614ba06.css.map": "/KKMPSELAYUR/static/css/main.2614ba06.css.map",
+    "main.c78004bf.js.map": "/KKMPSELAYUR/static/js/main.c78004bf.js.map",
+    "453.382633c3.chunk.js.map": "/KKMPSELAYUR/static/js/453.382633c3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2614ba06.css",
+    "static/js/main.c78004bf.js"
+  ]
+}
