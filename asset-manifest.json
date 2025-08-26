@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.b209cc92.css",
-    "main.js": "/static/js/main.01f7e417.js",
+    "main.js": "/static/js/main.17d20754.js",
     "static/js/453.382633c3.chunk.js": "/static/js/453.382633c3.chunk.js",
     "static/media/strukturOrganisasi.png": "/static/media/strukturOrganisasi.3a8660225c291697e41c.png",
     "static/media/palembangLogo.png": "/static/media/palembangLogo.88b2ba1ed8e5812b05ec.png",
@@ -11,11 +11,11 @@
     "static/media/kemenkop.png": "/static/media/kemenkop.33d665fe0bca5d751f08.png",
     "index.html": "/index.html",
     "main.b209cc92.css.map": "/static/css/main.b209cc92.css.map",
-    "main.01f7e417.js.map": "/static/js/main.01f7e417.js.map",
+    "main.17d20754.js.map": "/static/js/main.17d20754.js.map",
     "453.382633c3.chunk.js.map": "/static/js/453.382633c3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b209cc92.css",
-    "static/js/main.01f7e417.js"
+    "static/js/main.17d20754.js"
   ]
 }
