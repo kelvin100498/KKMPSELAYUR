@@ -392,7 +392,8 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background: linear-gradient(to bottom, #800000, #a00000);
+  /* background: linear-gradient(to bottom, #800000, #a00000); */
+  background: white;
   color: white;
   font-family: sans-serif;
 }
@@ -501,7 +502,7 @@ body {
   .struktur-organisasi {
     display: none;
   }
-  
+
   .search-bar {
     width: 90%;          /* biar ada space kanan kiri */
     margin: 0 auto 1rem; /* auto bikin rata tengah */
