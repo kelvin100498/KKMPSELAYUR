@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.8d4a56a7.css",
+    "main.css": "/static/css/main.b209cc92.css",
     "main.js": "/static/js/main.01f7e417.js",
     "static/js/453.382633c3.chunk.js": "/static/js/453.382633c3.chunk.js",
     "static/media/strukturOrganisasi.png": "/static/media/strukturOrganisasi.3a8660225c291697e41c.png",
@@ -10,12 +10,12 @@
     "static/media/logoSeiSelayur.png": "/static/media/logoSeiSelayur.28c6973f69ce7e5fe03a.png",
     "static/media/kemenkop.png": "/static/media/kemenkop.33d665fe0bca5d751f08.png",
     "index.html": "/index.html",
-    "main.8d4a56a7.css.map": "/static/css/main.8d4a56a7.css.map",
+    "main.b209cc92.css.map": "/static/css/main.b209cc92.css.map",
     "main.01f7e417.js.map": "/static/js/main.01f7e417.js.map",
     "453.382633c3.chunk.js.map": "/static/js/453.382633c3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8d4a56a7.css",
+    "static/css/main.b209cc92.css",
     "static/js/main.01f7e417.js"
   ]
 }
