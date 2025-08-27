@@ -214,7 +214,7 @@ function App() {
                             alt={item.nama}
                             className='product-img'
                           />
-                          <h3>{item.nama}</h3>
+                          <h3 dangerouslySetInnerHTML={{ __html: item.nama }} />
                           <p className='price'>
                             Rp {parseInt(item.harga).toLocaleString('id-ID')}
                             {item.item_type ? ` / ${item.item_type}` : ''}
